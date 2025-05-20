@@ -375,6 +375,83 @@ body {
 
     border-radius: 16px;
 
+    .game-card {
+      position: absolute;
+      bottom: 24px;
+
+      width: 285px;
+      max-height: 55%;
+      padding: 20px;
+
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+
+      border-radius: 10px;
+      background: linear-gradient(108.5deg, #b6e0ff16, #b6e0ff22);
+      backdrop-filter: blur(6.5px);
+      -webkit-backdrop-filter: blur(6.5px);
+
+      color: #fff;
+      text-align: center;
+      overflow: hidden;
+
+      z-index: 0;
+
+      &__media {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex: 1 1 auto;
+
+        width: 100%;
+
+        img {
+          display: block;
+          height: 180px;
+
+          border-radius: 8px;
+        }
+      }
+
+      &:nth-child(1) {
+        left: 24px;
+      }
+
+      &:nth-child(2) {
+        right: 24px;
+      }
+
+      & .btn {
+        color: white;
+        margin: 0;
+
+        &:hover {
+          color: white;
+        }
+      }
+
+      @media (max-width: $bp-md) {
+        bottom: 15px;
+        width: 150px;
+
+        &__media {
+          img {
+            height: 50%;
+            width: 50%;
+          }
+        }
+
+        &:nth-child(1) {
+          left: 12px;
+        }
+
+        &:nth-child(2) {
+          right: 12px;
+        }
+      }
+    }
+
     .slide {
       position: relative;
 
