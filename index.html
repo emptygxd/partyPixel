@@ -1,0 +1,906 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Party Pixel</title>
+    <link rel="stylesheet" href="./fonts/inter.css" />
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header class="site-header">
+      <div class="container">
+        <div class="container__menu">
+          <a href="/" class="logo">
+            <img src="./assets/logo/logo.png" alt="Party pixel" />
+          </a>
+
+          <div class="mobile-nav">
+            <?xml version="1.0" encoding="utf-8"?>
+            <svg
+              width="800px"
+              height="800px"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M4 6H20M4 12H20M4 18H20"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+
+          <nav class="main-nav">
+            <ul>
+              <li>
+                <a href="#">Games <span class="arrow">▶</span></a>
+              </li>
+
+              <li><a href="#">How To Play</a></li>
+
+              <li>
+                <a href="#">Company <span class="arrow">▶</span></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="header-controls">
+          <button class="btn slide-content__btn open-auth">Sign Up</button>
+        </div>
+      </div>
+    </header>
+
+    <!-- slider -->
+    <section class="hero-slider">
+      <div class="hero-slider__viewport">
+        <ul class="hero-slider__track">
+          <li
+            class="hero-slider__slide"
+            style="--bg-url: url('./assets/slider/carousel-wide-bg.png')"
+          >
+            <div class="game-card">
+              <div class="game-card__media">
+                <img
+                  src="./assets/slider/mysteryMadness3.png"
+                  alt="Trivia Murder Party 3"
+                />
+              </div>
+
+              <button class="btn">Learn More</button>
+            </div>
+
+            <div class="game-card">
+              <div class="game-card__media">
+                <img
+                  src="./assets/slider/partyPack11.png"
+                  alt="Party Pack 11"
+                />
+              </div>
+
+              <button class="btn">Learn More</button>
+            </div>
+          </li>
+
+          <li
+            class="hero-slider__slide"
+            style="
+              --bg-url: url('./assets/slider/carousel-placeholder-wide.jpg');
+            "
+          >
+            <div class="slide-content__overlay">
+              <div class="slide-content">
+                <h1 class="slide-content__title">
+                  <span class="slide-content__title-pre">PartyPixel</span>
+                  <span class="slide-content__title-main">Trivia Tornado</span>
+                </h1>
+
+                <div class="slide-content__subtitle">
+                  <div class="slide-content__subtitle-steam">
+                    <img src="./assets/icons/steamCircle.svg" alt="Steam" />
+                    <span class="slide-content__for">For Steam</span>
+                  </div>
+
+                  <span class="slide-content__available">Available Now!</span>
+                </div>
+
+                <div class="slide-content__actions">
+                  <button class="btn slide-content__btn open-auth">
+                    Sign Up
+                    <span>→</span>
+                  </button>
+                </div>
+
+                <ul class="slide-content__stores">
+                  <a href="#">
+                    <img src="./assets/icons/nintendo.svg" alt="Nintendo" />
+                  </a>
+
+                  <a href="#"
+                    ><img src="./assets/icons/xbox.svg" alt="Xbox"
+                  /></a>
+
+                  <a href="#">
+                    <img src="./assets/icons/play.svg" alt="PlayStation" />
+                  </a>
+
+                  <a href="#"
+                    ><img src="./assets/icons/steam.svg" alt="Steam"
+                  /></a>
+                </ul>
+              </div>
+            </div>
+          </li>
+
+          <li
+            class="hero-slider__slide"
+            style="--bg-url: url('./assets/slider/np-slide-wide.jpg')"
+          >
+            <div class="slide-content__overlay">
+              <div class="slide-content">
+                <h1 class="slide-content__title">
+                  <img src="./assets/logo/saucySet.png" alt="Saucy Set" />
+                </h1>
+
+                <div class="slide-content__subtitle">
+                  <div class="slide-content__subtitle-steam">
+                    <img src="./assets/icons/steamCircle.svg" alt="Steam" />
+                    <span class="slide-content__for">For Steam</span>
+                  </div>
+
+                  <span class="slide-content__available">Available Now!</span>
+                </div>
+
+                <div class="slide-content__actions">
+                  <button class="btn slide-content__btn open-auth">
+                    Sign Up
+                    <span>→</span>
+                  </button>
+                </div>
+
+                <ul class="slide-content__stores">
+                  <a href="#">
+                    <img src="./assets/icons/nintendo.svg" alt="Nintendo" />
+                  </a>
+
+                  <a href="#"
+                    ><img src="./assets/icons/xbox.svg" alt="Xbox"
+                  /></a>
+
+                  <a href="#">
+                    <img src="./assets/icons/play.svg" alt="PlayStation" />
+                  </a>
+
+                  <a href="#"
+                    ><img src="./assets/icons/steam.svg" alt="Steam"
+                  /></a>
+                </ul>
+              </div>
+            </div>
+          </li>
+
+          <li
+            class="hero-slider__slide"
+            style="--bg-url: url('./assets/slider/megapicker-feature-bg.png')"
+          >
+            <div class="slide-content__overlay">
+              <div class="slide-content">
+                <h1 class="slide-content__title">
+                  <span class="slide-content__title-pre">PartyPixel</span>
+                  <span class="slide-content__title-main">Ultra Chooser</span>
+                </h1>
+
+                <div class="slide-content__subtitle">
+                  <div class="slide-content__subtitle-steam">
+                    <img src="./assets/icons/steamCircle.svg" alt="Steam" />
+                    <span class="slide-content__for">For Steam</span>
+                  </div>
+
+                  <span class="slide-content__available">Available Now!</span>
+                </div>
+
+                <div class="slide-content__actions">
+                  <button class="btn slide-content__btn open-auth">
+                    Sign Up
+                    <span>→</span>
+                  </button>
+                </div>
+
+                <ul class="slide-content__stores">
+                  <a href="#">
+                    <img src="./assets/icons/nintendo.svg" alt="Nintendo" />
+                  </a>
+
+                  <a href="#"
+                    ><img src="./assets/icons/xbox.svg" alt="Xbox"
+                  /></a>
+
+                  <a href="#">
+                    <img src="./assets/icons/play.svg" alt="PlayStation" />
+                  </a>
+
+                  <a href="#"
+                    ><img src="./assets/icons/steam.svg" alt="Steam"
+                  /></a>
+                </ul>
+              </div>
+            </div>
+          </li>
+
+          <li class="hero-slider__slide slide-video">
+            <video
+              class="hero-slider__video"
+              src="./assets/slider/bg-vid.mp4"
+              autoplay
+              muted
+              loop
+              playsinline
+            ></video>
+
+            <div class="slide-content__overlay">
+              <div class="slide-content">
+                <h1 class="slide-content__title">
+                  <img src="./assets/packs/pack4.png" alt="Game bundle" />
+                </h1>
+
+                <div class="slide-content__subtitle">
+                  <span class="slide-content__for">For Steam</span>
+                  <span class="slide-content__available">Available Now!</span>
+                </div>
+
+                <div class="slide-content__actions">
+                  <button class="btn slide-content__btn open-auth">
+                    Sign Up
+                    <span>→</span>
+                  </button>
+                </div>
+
+                <ul class="slide-content__stores">
+                  <a href="#">
+                    <img src="./assets/icons/nintendo.svg" alt="Nintendo" />
+                  </a>
+
+                  <a href="#"
+                    ><img src="./assets/icons/xbox.svg" alt="Xbox"
+                  /></a>
+
+                  <a href="#">
+                    <img src="./assets/icons/play.svg" alt="PlayStation" />
+                  </a>
+
+                  <a href="#"
+                    ><img src="./assets/icons/steam.svg" alt="Steam"
+                  /></a>
+                </ul>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="hero-slider__controls">
+        <button
+          class="hero-slider__arrow hero-slider__arrow-prev"
+          aria-label="Previous slide"
+        >
+          ‹
+        </button>
+
+        <div class="hero-slider__dots">
+          <button class="hero-slider__dot is-active"></button>
+          <button class="hero-slider__dot"></button>
+          <button class="hero-slider__dot"></button>
+          <button class="hero-slider__dot"></button>
+          <button class="hero-slider__dot"></button>
+        </div>
+
+        <button
+          class="hero-slider__arrow hero-slider__arrow-next"
+          aria-label="Next slide"
+        >
+          ›
+        </button>
+      </div>
+    </section>
+
+    <!-- info -->
+    <section class="info">
+      <div class="container info__inner">
+        <div class="mobile__info-title">
+          <p class="mobile__pretitle">Party Pixel Official Website</p>
+          <h2 class="mobile__title">What's Party Pixel?</h2>
+        </div>
+
+        <div class="info__image">
+          <img
+            src="./assets/info/cat.png"
+            alt="Party Pixel Cat"
+            data-animate="slide-up"
+          />
+        </div>
+
+        <div class="info__content">
+          <p class="pretitle">Party Pixel Official Website</p>
+          <h2 class="title">What's Party Pixel?</h2>
+
+          <p class="info__text text">
+            PartyPixel is a creative studio based in Chicago, celebrated for its
+            wildly entertaining party games like
+            <em>QuizPop</em>, <em>TruthTangle</em>, <em>SketchIt</em>,
+            <em>Mystery Madness</em>, and more!
+          </p>
+
+          <p class="info__text text">
+            Think of us as the rebellious grandchild of classic social games
+            like charades - the one who ditched college, ran off to join the
+            circus, and came back as a beloved global entertainer.
+          </p>
+
+          <ul class="game-list">
+            <li class="game-list__item">
+              <a href="#"
+                ><img
+                  src="./assets/info/mysteryMadness.png"
+                  alt="Mystery Madness"
+              /></a>
+            </li>
+
+            <li class="game-list__item">
+              <a href="#"
+                ><img src="./assets/info/sketchIt.png" alt="Sketch It"
+              /></a>
+            </li>
+
+            <li class="game-list__item">
+              <a href="#"
+                ><img src="./assets/info/tweetTune.png" alt="Tweet Tune"
+              /></a>
+            </li>
+
+            <li class="game-list__item">
+              <a href="#"
+                ><img
+                  src="./assets/info/tshirtBattle.png"
+                  alt="T-Shirt Battle 2"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- blog -->
+    <section class="blog">
+      <div class="container">
+        <p class="pretitle">Party Pixel Games Blog</p>
+        <h2 class="title">We're Always Up To Something</h2>
+
+        <ul class="blog__list">
+          <li class="blog__list-item">
+            <a href="#" class="blog__card">
+              <div
+                class="blog__card-img"
+                style="background-image: url(./assets/blog/blog1.png)"
+              ></div>
+
+              <div class="blog__card-info">
+                <h3 class="blog__card-title">
+                  Party Pixel is coming to Expo 2025: East Edition
+                </h3>
+
+                <time class="blog__card-date" datetime="2025-05-08"
+                  >May 8, 2025</time
+                >
+              </div>
+            </a>
+          </li>
+
+          <li class="blog__list-item">
+            <a href="#" class="blog__card">
+              <div
+                class="blog__card-img"
+                style="background-image: url(./assets/blog/blog2.png)"
+              ></div>
+
+              <div class="blog__card-info">
+                <h3 class="blog__card-title">
+                  Meet Suspectives: The First Game Revealed in Party Pixel's
+                  Party Pack 11
+                </h3>
+
+                <time class="blog__card-date" datetime="2025-05-05"
+                  >May 5, 2025</time
+                >
+              </div>
+            </a>
+          </li>
+
+          <li class="blog__list-item">
+            <a href="#" class="blog__card">
+              <div
+                class="blog__card-img"
+                style="background-image: url(./assets/blog/blog3.png)"
+              ></div>
+
+              <div class="blog__card-info">
+                <h3 class="blog__card-title">
+                  Were you looking for Mystery Madness Party?
+                </h3>
+
+                <time class="blog__card-date" datetime="2025-04-30"
+                  >April 30, 2025</time
+                >
+              </div>
+            </a>
+          </li>
+
+          <li class="blog__list-item">
+            <a href="#" class="blog__card">
+              <div
+                class="blog__card-img"
+                style="background-image: url(./assets/blog/blog4.png)"
+              ></div>
+
+              <div class="blog__card-info">
+                <h3 class="blog__card-title">
+                  Hey, Windy City! Catch Us at C2E2 All Weekend Long!
+                </h3>
+
+                <time class="blog__card-date" datetime="2025-04-10"
+                  >April 10, 2025</time
+                >
+              </div>
+            </a>
+          </li>
+        </ul>
+
+        <div class="blog__more">
+          <a href="#" class="transparent-btn">Visit the Party Pixel Blog</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- packs -->
+    <section class="packs">
+      <div class="container">
+        <p class="pretitle">Party Pixel Party Packs</p>
+        <h2 class="title">So Pick a Party Pack</h2>
+
+        <p class="packs__desc">
+          Each Party Pixel pack includes five brand-new games. To date, we've
+          launched 7 unique collections - each crafted to bring everyone
+          together, whether you're hanging out in person, connecting on Zoom, or
+          streaming live on Twitch. From fast-paced drawing duels to clever
+          wordplay, brainy trivia, and secret role showdowns - there's something
+          for every kind of party player.
+        </p>
+
+        <ul class="packs-grid">
+          <li class="packs-grid__item">
+            <img
+              src="./assets/packs/saucySet.png"
+              alt="Saucy Set"
+              style="border-radius: 9px"
+            />
+          </li>
+
+          <li class="packs-grid__item">
+            <img
+              src="./assets/packs/pack6.png"
+              alt="Party Pixel Party Pack 6"
+            />
+          </li>
+
+          <li class="packs-grid__item">
+            <img
+              src="./assets/packs/pack5.png"
+              alt="Party Pixel Party Pack 5"
+            />
+          </li>
+
+          <li class="packs-grid__item">
+            <img
+              src="./assets/packs/pack4.png"
+              alt="Party Pixel Party Pack 4"
+            />
+          </li>
+
+          <li class="packs-grid__item">
+            <img
+              src="./assets/packs/pack3.png"
+              alt="Party Pixel Party Pack 3"
+            />
+          </li>
+
+          <li class="packs-grid__item">
+            <img
+              src="./assets/packs/pack2.png"
+              alt="Party Pixel Party Pack 2"
+            />
+          </li>
+
+          <li class="packs-grid__item">
+            <img src="./assets/packs/pack1.png" alt="Party Pixel Party Pack" />
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- friends -->
+    <section class="friends">
+      <div class="container friends__inner">
+        <div class="friends__content">
+          <h2 class="friends__title title">
+            Friends Unite<br />No Matter the Distance
+          </h2>
+
+          <h3 class="friends__subtitle">
+            Party Pixel: Play Together, Laugh Together
+          </h3>
+
+          <p class="friends__text text">
+            No one else needs to buy in-just project the host's screen, and
+            you're all set for endless laughter.
+          </p>
+
+          <h4 class="friends__social-title">
+            Find Us on Your Favorite Platforms
+          </h4>
+
+          <ul class="social-list">
+            <li>
+              <a href="#" aria-label="Facebook"
+                ><img src="./assets/icons/facebook.svg" alt="Facebook"
+              /></a>
+            </li>
+
+            <li>
+              <a href="#" aria-label="Instagram"
+                ><img src="./assets/icons/instagram.svg" alt="instagram"
+              /></a>
+            </li>
+
+            <li>
+              <a href="#" aria-label="Reddit"
+                ><img src="./assets/icons/reddit.svg" alt="Reddit"
+              /></a>
+            </li>
+
+            <li>
+              <a href="#" aria-label="TikTok"
+                ><img src="./assets/icons/tiktok.svg" alt="TikTok"
+              /></a>
+            </li>
+
+            <li>
+              <a href="#" aria-label="Twitter"
+                ><img src="./assets/icons/twitter.svg" alt="Twitter"
+              /></a>
+            </li>
+
+            <li>
+              <a href="#" aria-label="YouTube"
+                ><img src="./assets/icons/youtube.svg" alt="YouTube"
+              /></a>
+            </li>
+          </ul>
+
+          <h4 class="friends__newsletter-title">Subscribe to Our Newsletter</h4>
+
+          <p class="friends__newsletter-text">
+            Be the first to see Party Pixel news, sneak peeks, updates, and
+            exclusives.
+          </p>
+
+          <form class="newsletter-form" action="#" method="post">
+            <div class="newsletter-form__input-wrapper">
+              <input
+                type="email"
+                name="email"
+                class="newsletter-form__input"
+                placeholder="Email address"
+                required
+              />
+              <img src="./assets/icons/envelope.svg" alt="envelope" />
+            </div>
+
+            <button type="submit" class="transparent-btn">Submit</button>
+          </form>
+        </div>
+
+        <div class="friends__image">
+          <img src="./assets/friends/yellowGuy.png" alt="Yellow Guy" />
+          <img
+            src="./assets/friends/characters.png"
+            alt="Other Characters"
+            data-animate="slide-right"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- faq -->
+    <section class="faq">
+      <div class="container faq__inner">
+        <div class="faq__image">
+          <img src="./assets/faq/monkey.png" alt="Monkey" />
+        </div>
+
+        <div class="faq__content">
+          <p class="pretitle">Frequently Asked Questions</p>
+          <h2 class="title">Still Have Questions?</h2>
+
+          <p class="faq__desc">
+            We'll do our best below! And if you don't find what you're looking
+            for, check out How to Play.
+          </p>
+
+          <div class="accordion" id="faqAccordion">
+            <div class="accordion__item">
+              <button type="button" class="accordion__header">
+                What is Party Pixel Games?
+                <span class="accordion__icon">+</span>
+              </button>
+
+              <div class="accordion__body">
+                <p>
+                  Party Pixel is the brainchild behind smash-hit party
+                  experiences like You Have No Clue, QuipCrush, BluffBuff,
+                  Doodle Duel, Trivia Terror, and more! Think of us as the
+                  rebellious offspring of old-school social staples like
+                  charades… the one who dropped out, then earned the family's
+                  respect by launching a boutique jam empire.
+                </p>
+
+                <p>
+                  Maybe you first stumbled across us in a feature article, on
+                  someone's stream, during a cheeky ad break, or via a friend's
+                  enthusiastic recommendation. Whatever led you here, welcome
+                  aboard-our mission is to turn every hangout (near or far) into
+                  something hilariously weird, wildly fun, and utterly
+                  unforgettable.
+                </p>
+              </div>
+            </div>
+
+            <div class="accordion__item">
+              <button type="button" class="accordion__header">
+                What is a Party Pack?
+                <span class="accordion__icon">+</span>
+              </button>
+
+              <div class="accordion__body">
+                <p>
+                  At Party Pixel, we craft an eclectic lineup of experiences
+                  guaranteed to entertain everyone-whether they're gathered
+                  around a living-room TV, dialing in on Zoom, or tuning in via
+                  Twitch. From sketch-off showdowns and word-smithing challenges
+                  to lightning-fast quizzes and secret-identity mysteries, no
+                  player ever gets left out of the fun.
+                </p>
+
+                <p>
+                  Since 2014, we've rolled out a fresh Pixel Party Bundle each
+                  year-five distinct games per bundle, each accommodating 1-8
+                  participants. Have more than eight friends? (1) Well done on
+                  your instant celebrity status, and (2) many titles feature
+                  “audience play-along,” so every on-looker can join in the
+                  chaos.
+                </p>
+
+                <p>
+                  We also offer standalone smash hits-like Doodle Duel 2-perfect
+                  for sparking uproarious fun on their own, any time, anywhere.
+                </p>
+              </div>
+            </div>
+
+            <div class="accordion__item">
+              <button type="button" class="accordion__header">
+                OK, I've purchased a party pack! Is there anything my friends or
+                family need to do to play with me?
+                <span class="accordion__icon">+</span>
+              </button>
+
+              <div class="accordion__body">
+                <p>
+                  Everyone just needs any internet-enabled device-no downloads,
+                  no extra purchases. All it takes is a smartphone (or
+                  tablet/laptop), a web connection, and a clear view of the game
+                  screen. Now lean in and let the fun begin!
+                </p>
+              </div>
+            </div>
+
+            <div class="accordion__item">
+              <button type="button" class="accordion__header">
+                How do I get a Party Pixel Game Started?
+                <span class="accordion__icon">+</span>
+              </button>
+
+              <div class="accordion__body">
+                <p>
+                  You've grabbed a Party Pixel Party Pack and rallied your
+                  crew-now it's time to jump in and play! Head over to our
+                  <a href="#tutorial">tutorial</a> video and detailed
+                  walkthrough for everything you need to connect every
+                  participant. That guide also shows you how to unlock bonus
+                  settings and customize each game to your liking.
+                </p>
+
+                <p>
+                  Just remember: everyone, whether in the same room or miles
+                  apart, needs a clear view of the screen playing the game (and
+                  to have the volume up!). That way they can spot the room code,
+                  join instantly, and stay in sync with all the on-screen
+                  action.
+                </p>
+              </div>
+            </div>
+
+            <div class="accordion__item">
+              <button type="button" class="accordion__header">
+                What should I do if I experience issues while playing a Party
+                Pixel Game?
+                <span class="accordion__icon">+</span>
+              </button>
+
+              <div class="accordion__body">
+                <p>
+                  Need a hand? Swing by
+                  <a href="#support">Party Pixel's Support</a> hub—your one-stop
+                  shop for guides, tips, and troubleshooting walkthroughs. If
+                  you don't spot the answer, file a ticket and our crew will
+                  reply within 1-3 business days (holiday seasons might add a
+                  bit of wait).
+                </p>
+
+                <p>
+                  Pro tip: if a player's device drops out mid-game, have them
+                  hit “refresh” on their browser—most of the time they'll pop
+                  right back in. And if that doesn't do the trick, just let us
+                  know—no one gets left behind!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer  -->
+    <footer class="site-footer">
+      <div class="container site-footer__top">
+        <div class="site-footer__brand-news">
+          <div class="site-footer__logo">
+            <img src="./assets/logo/logo.png" alt="Party Pixel" />
+          </div>
+
+          <div class="site-footer__newsletter">
+            <h3 class="site-footer__newsletter-title">Join the Newsletter</h3>
+
+            <p class="site-footer__newsletter-sub">
+              The latest news, events, and laughs from Party Pixel, straight to
+              your inbox.
+            </p>
+
+            <form class="newsletter-form" action="#" method="post">
+              <div class="newsletter-form__input-wrapper">
+                <input
+                  type="email"
+                  name="email"
+                  class="newsletter-form__input"
+                  placeholder="Email address"
+                  required
+                />
+                <img src="./assets/icons/envelope.svg" alt="envelope" />
+              </div>
+
+              <button type="submit" class="transparent-btn">Submit</button>
+            </form>
+          </div>
+        </div>
+
+        <ul class="site-footer__social">
+          <li>
+            <a href="#" aria-label="Facebook"
+              ><img src="./assets/icons/facebook.svg" alt="Facebook"
+            /></a>
+          </li>
+
+          <li>
+            <a href="#" aria-label="Instagram"
+              ><img src="./assets/icons/instagram.svg" alt="Instagram"
+            /></a>
+          </li>
+
+          <li>
+            <a href="#" aria-label="Reddit"
+              ><img src="./assets/icons/reddit.svg" alt="Reddit"
+            /></a>
+          </li>
+
+          <li>
+            <a href="#" aria-label="TikTok"
+              ><img src="./assets/icons/tiktok.svg" alt="TikTok"
+            /></a>
+          </li>
+
+          <li>
+            <a href="#" aria-label="Twitter"
+              ><img src="./assets/icons/twitter.svg" alt="Twitter"
+            /></a>
+          </li>
+
+          <li>
+            <a href="#" aria-label="YouTube"
+              ><img src="./assets/icons/youtube.svg" alt="YouTube"
+            /></a>
+          </li>
+        </ul>
+      </div>
+
+      <hr class="site-footer__divider" />
+
+      <div class="container site-footer__bottom">
+        <p class="site-footer__copyright">
+          © Copyright 2025 Jackbox Games. All rights reserved.
+        </p>
+
+        <ul class="site-footer__links">
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <!-- modal -->
+    <div class="modal modal-auth hidden" id="authModal">
+      <div class="modal__overlay js-modal-close"></div>
+      <div class="modal__content">
+        <button class="modal__close js-modal-close">×</button>
+
+        <h2 class="modal__title">Sign In</h2>
+
+        <form class="auth-form">
+          <label class="auth-form__group">
+            Email
+            <input
+              type="email"
+              name="email"
+              required
+              placeholder="you@example.com"
+            />
+          </label>
+
+          <label class="auth-form__group">
+            Password
+            <input
+              type="password"
+              name="password"
+              required
+              placeholder="••••••••"
+            />
+          </label>
+
+          <button type="submit" class="btn auth-form__submit">Sign In</button>
+        </form>
+
+        <p class="modal__footer">
+          Don’t have an account?
+          <a href="#" class="open-signup">Sign Up</a>
+        </p>
+      </div>
+    </div>
+
+    <script src="./scripts/modal.js"></script>
+    <script src="./scripts/slider.js"></script>
+    <script src="./scripts/onScroll.js"></script>
+    <script src="./scripts/imgAnimation.js"></script>
+    <script src="./scripts/accordion.js"></script>
+  </body>
+</html>
