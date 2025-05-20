@@ -710,6 +710,7 @@ body {
     img {
       width: 100%;
       height: 100%;
+      padding-bottom: 100px;
 
       background-image: image-set(url(../images/homepage/mayo.webp));
       background-position: 0 0;
@@ -1064,6 +1065,10 @@ body {
     @media (max-width: $bp-xl) {
       padding: 0 40px;
     }
+
+    @media (max-width: $bp-md) {
+      width: 340px;
+    }
   }
 
   &__title {
@@ -1111,6 +1116,10 @@ body {
       height: auto;
 
       display: block;
+    }
+
+    @media (max-width: $bp-md) {
+      gap: 20px;
     }
   }
 
