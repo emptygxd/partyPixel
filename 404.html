@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./fonts/inter.css" />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="stylesheet" href="./styles/404.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <div class="container__menu">
+          <a href="/" class="logo">
+            <img src="./assets/logo/logo.png" alt="Party pixel" />
+          </a>
+
+          <div class="mobile-nav">
+            <?xml version="1.0" encoding="utf-8"?>
+            <svg
+              width="800px"
+              height="800px"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M4 6H20M4 12H20M4 18H20"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+
+          <nav class="main-nav">
+            <ul>
+              <li>
+                <a href="#">Games <span class="arrow">▶</span></a>
+              </li>
+
+              <li><a href="#">How To Play</a></li>
+
+              <li>
+                <a href="#">Company <span class="arrow">▶</span></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="header-controls">
+          <button class="btn slide-content__btn open-auth">Sign Up</button>
+        </div>
+      </div>
+    </header>
+
+    <div class="error-page">
+      <img
+        src="./assets/404/blueGuy.png"
+        alt="blue guy"
+        class="error-page__image"
+      />
+
+      <div class="error-page__text">
+        <h1 class="error-page__title">How unfortunate...</h1>
+        <p class="error-page__message">
+          We could not find the page you are looking for.
+        </p>
+        <a href="/" class="btn">back to homepage</a>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+      <div class="container site-footer__top">
+        <div class="site-footer__brand-news">
+          <div class="site-footer__logo">
+            <img
+              src="./assets/logo/logo.png"
+              alt="Party Pixel"
+              loading="lazy"
+            />
+          </div>
+
+          <div class="site-footer__newsletter">
+            <h3 class="site-footer__newsletter-title">Join the Newsletter</h3>
+
+            <p class="site-footer__newsletter-sub">
+              The latest news, events, and laughs from Party Pixel, straight to
+              your inbox.
+            </p>
+
+            <form class="newsletter-form" action="#" method="post">
+              <div class="newsletter-form__input-wrapper">
+                <input
+                  type="email"
+                  name="email"
+                  class="newsletter-form__input"
+                  placeholder="Email address"
+                  required
+                />
+                <img
+                  src="./assets/icons/envelope.svg"
+                  alt="envelope"
+                  loading="lazy"
+                />
+              </div>
+
+              <button type="submit" class="transparent-btn">Submit</button>
+            </form>
+          </div>
+        </div>
+
+        <ul class="site-footer__social">
+          <li>
+            <a href="#" aria-label="Facebook"
+              ><img
+                src="./assets/icons/facebook.svg"
+                alt="Facebook"
+                loading="lazy"
+            /></a>
+          </li>
+
+          <li>
+            <a href="#" aria-label="Instagram"
+              ><img
+                src="./assets/icons/instagram.svg"
+                alt="Instagram"
+                loading="lazy"
+            /></a>
+          </li>
+
+          <li>
+            <a href="#" aria-label="Reddit"
+              ><img src="./assets/icons/reddit.svg" alt="Reddit" loading="lazy"
+            /></a>
+          </li>
+
+          <li>
+            <a href="#" aria-label="TikTok"
+              ><img src="./assets/icons/tiktok.svg" alt="TikTok" loading="lazy"
+            /></a>
+          </li>
+
+          <li>
+            <a href="#" aria-label="Twitter"
+              ><img
+                src="./assets/icons/twitter.svg"
+                alt="Twitter"
+                loading="lazy"
+            /></a>
+          </li>
+
+          <li>
+            <a href="#" aria-label="YouTube"
+              ><img
+                src="./assets/icons/youtube.svg"
+                alt="YouTube"
+                loading="lazy"
+            /></a>
+          </li>
+        </ul>
+      </div>
+
+      <hr class="site-footer__divider" />
+
+      <div class="container site-footer__bottom">
+        <p class="site-footer__copyright">
+          © Copyright 2025 Jackbox Games. All rights reserved.
+        </p>
+
+        <ul class="site-footer__links">
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <div class="modal modal-auth hidden" id="authModal">
+      <div class="modal__overlay js-modal-close"></div>
+      <div class="modal__content">
+        <button class="modal__close js-modal-close">×</button>
+
+        <h2 class="modal__title">Sign In</h2>
+
+        <form class="auth-form">
+          <label class="auth-form__group">
+            Email
+            <input
+              type="email"
+              name="email"
+              required
+              placeholder="you@example.com"
+            />
+          </label>
+
+          <label class="auth-form__group">
+            Password
+            <input
+              type="password"
+              name="password"
+              required
+              placeholder="••••••••"
+            />
+          </label>
+
+          <button type="submit" class="btn auth-form__submit">Sign In</button>
+        </form>
+
+        <p class="modal__footer">
+          Don’t have an account?
+          <a href="#" class="open-signup">Sign Up</a>
+        </p>
+      </div>
+    </div>
+    <script src="./scripts/modal.js"></script>
+    <script src="./scripts/onScroll.js"></script>
+  </body>
+</html>

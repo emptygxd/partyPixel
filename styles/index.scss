@@ -18,7 +18,7 @@ ul {
 }
 
 body {
-  background-image: url("./assets/backgrounds/bg.png");
+  background-image: url("../assets/backgrounds/bg.png");
   background-repeat: repeat;
   background-attachment: fixed;
   background-color: linear-gradient(
@@ -105,6 +105,7 @@ body {
   font-weight: 800;
   line-height: 16px;
   text-align: left;
+  text-decoration: none;
   text-transform: uppercase;
 
   cursor: pointer;
@@ -839,7 +840,7 @@ body {
 // ============ blog ============
 
 .blog {
-  background-image: url("./assets/backgrounds/blog_bg.webp");
+  background-image: url("../assets/backgrounds/blog_bg.webp");
   background-repeat: repeat;
 
   padding: 64px 0;
@@ -951,7 +952,7 @@ body {
 // ============ packs ============
 
 .packs {
-  background-image: image-set(url(./assets/backgrounds/packs_bg.webp));
+  background-image: image-set(url(../assets/backgrounds/packs_bg.webp));
   background-position: 50%;
   background-repeat: repeat;
   background-size: 80%;
