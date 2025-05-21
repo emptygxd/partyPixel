@@ -16,7 +16,6 @@ body {
   background-image: url("../assets/backgrounds/bg.png");
   background-repeat: repeat;
   background-attachment: fixed;
-  background-color: linear-gradient(180deg, var(--surface-800) 7%, #181c23 36%, var(--surface-900) 71%, var(--shade-100) 100%);
   overflow-x: hidden;
 }
 
