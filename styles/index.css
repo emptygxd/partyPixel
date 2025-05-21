@@ -342,6 +342,7 @@ body {
 .hero-slider__slide .game-card .btn {
   color: white;
   margin: 0;
+  justify-content: center;
 }
 .hero-slider__slide .game-card .btn:hover {
   color: white;
